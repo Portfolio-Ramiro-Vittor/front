@@ -28,7 +28,11 @@ export function Reveal({ children, className, delay = 0, y = 20 }: RevealProps) 
         duration: 0.9,
         delay,
         ease: 'power3.out',
-        scrollTrigger: { trigger: el, start: 'top 88%', once: true },
+        scrollTrigger: {
+          trigger: el,
+          start: 'top 88%',
+          toggleActions: 'play reverse play reverse',
+        },
       })
     }, el)
     return () => ctx.revert()
@@ -60,7 +64,11 @@ export function MaskReveal({ children, className, innerClassName }: MaskRevealPr
         yPercent: 110,
         duration: 1.1,
         ease: 'power4.out',
-        scrollTrigger: { trigger: el.parentElement, start: 'top 88%', once: true },
+        scrollTrigger: {
+          trigger: el.parentElement,
+          start: 'top 88%',
+          toggleActions: 'play reverse play reverse',
+        },
       })
     }, el)
     return () => ctx.revert()

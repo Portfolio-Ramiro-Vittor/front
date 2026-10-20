@@ -25,6 +25,14 @@ export const education: EducationEntry[] = [
     title: 'Data Analysis with Python',
     institution: 'freeCodeCamp',
     period: 'Certificación',
+    technologies: ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn'],
+  },
+  {
+    id: 'udemy-ml',
+    title: 'Machine Learning con Python',
+    institution: 'Udemy',
+    period: 'Certificación',
+    technologies: ['Scikit-learn', 'Keras', 'TensorFlow', 'PyTorch'],
   },
   {
     id: 'stats',

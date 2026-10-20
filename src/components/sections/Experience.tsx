@@ -32,7 +32,11 @@ export function Experience() {
           scale: 0,
           duration: 0.5,
           ease: 'back.out(2)',
-          scrollTrigger: { trigger: dot, start: 'top 82%', once: true },
+          scrollTrigger: {
+            trigger: dot,
+            start: 'top 82%',
+            toggleActions: 'play reverse play reverse',
+          },
         })
       })
     }, scope)

@@ -65,7 +65,7 @@ export function Header() {
                 onClick={() => scrollTo(`#${item.id}`)}
                 aria-current={isActive ? 'true' : undefined}
                 className={cn(
-                  'relative px-4 py-2 text-sm transition-colors duration-500',
+                  'relative px-4 py-2 text-base transition-colors duration-500',
                   isActive ? 'text-ink' : 'text-muted hover:text-ink',
                 )}
               >

@@ -55,6 +55,11 @@ export function About() {
                   <div>
                     <p className="font-medium text-ink">{entry.title}</p>
                     <p className="text-sm text-muted">{entry.institution}</p>
+                    {entry.technologies ? (
+                      <p className="mt-1 text-xs text-muted">
+                        {entry.technologies.join(' · ')}
+                      </p>
+                    ) : null}
                   </div>
                   {entry.period ? (
                     <span className="technical text-xs text-muted">

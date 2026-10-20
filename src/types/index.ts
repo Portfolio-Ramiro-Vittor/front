@@ -37,6 +37,7 @@ export interface EducationEntry {
   title: string
   institution: string
   period: string
+  technologies?: string[]
 }
 
 export interface NavItem {
