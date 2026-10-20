@@ -1,0 +1,18 @@
+{
+  "name": "Ramiro Vittor — Portfolio",
+  "short_name": "R. Vittor",
+  "description": "Portfolio profesional de Ramiro Vittor: datos, IA y desarrollo de software.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ECEEF1",
+  "theme_color": "#ECEEF1",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
